@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Demo bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      
+    .color1 {
+      background: #6fa843;
+    }
+    .color2 {
+      background: #96c144;
+
+    }
+    .color3 {
+      background: #cde0aa;
+    }
+    </style>
+  </head>
+  <body>
+	<h1>Mostly Fluid</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 color1">1</div>
+			<div class="col-sm-6 color2">2</div>
+			<div class="col-sm-6 color3">3</div>
+		</div>
+	</div>
+
+	<h1>Column Drop</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-3  col-lg-3 color1">1</div>
+			<div class="col-sm-12 col-md-9  col-lg-6 color2">2</div>
+			<div class="col-sm-12 col-md-12 col-lg-3 color3">3</div>
+		</div>
+	</div>
+
+	<h1>Layout Shifter</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 color1">
+			1
+			</div>
+			<div class="col-md-9">
+				<div class="row">
+					<div class="color2">2</div>
+					<div class="color3">3</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
